@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from '../Components/Layout/Header';
-import Footer from '../Components/Layout/Footer';
+import { Header, Footer } from '../Components/Layout';
 
 function App() {
   return (
-    <div className="text-success">App</div>
+    <div className="text-success">
+      <Header/>
+      Main Component
+      <Footer/>
+    </div>
   );
 }
 
